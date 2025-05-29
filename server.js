@@ -21,7 +21,7 @@ app.use((req, res, next) => {
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
     next();
 });
-
+// 
 server.listen(port, () => {
     console.log("Server started on 8000");
 })
